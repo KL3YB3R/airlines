@@ -1,0 +1,11 @@
+Plataforma Airlines
+
+    V 0.1 - Inicios de la Plataforma
+        + Conexión con la Base de Datos
+        + Conexión con Gitbuh
+
+    V 0.2 - Authenticación y Control de Usuarios
+        V 0.2.1
+            + Vistas pertinentes de Login y Registro
+            + Crear el Registro de usuarios
+            + Integración de Tailwind a la Plataforma

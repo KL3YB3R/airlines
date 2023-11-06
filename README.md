@@ -75,3 +75,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
     - Instalación de Tailwind.
     - Dejar la Base de Datos lista.
     - Hacer la conexión con Github.
+
+    Tareas para hoy 05/11/23
+    - Crear las Vistas para la autenticación (login y registro)
+    - Dejar operativo el Registro principal
