@@ -79,3 +79,6 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
     Tareas para hoy 05/11/23
     - Crear las Vistas para la autenticación (login y registro)
     - Dejar operativo el Registro principal
+
+    Tareas para hoy 07/11/23
+    - Dejar operativo el Login // Este login te permite entrar con tu correo o con tu nombre de usuario

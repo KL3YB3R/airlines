@@ -22,6 +22,7 @@ Route::get('/', HomeController::class);
 Route::controller(LoginController::class)->group(function () {
     // TODO MOSTRAR VISTA
     Route::get('/login', "index");
+    Route::post('/login', "login");
 });
 
 // ! REGISTER
