@@ -40,4 +40,11 @@ class RegisterRequest extends FormRequest
             'status' => 'Active',
         ];
     }
+
+    public function addEmailToAirline()
+    {
+        return [
+            'email' => $this->get('email')
+        ];
+    }
 }

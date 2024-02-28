@@ -14,5 +14,6 @@
     {{-- ! INLUDE CONTENT --}}
     @yield('content')
     {{-- ! INLUDE FOOTER --}}
+
 </body>
 </html>

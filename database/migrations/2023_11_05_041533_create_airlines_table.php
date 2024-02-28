@@ -13,6 +13,8 @@ return new class extends Migration
     {
         Schema::create('airlines', function (Blueprint $table) {
             $table->id();
+            $table->unsignedBigInteger('id_user')->nullable();
+            $table->foreign('id_user')->references('id')->on('users')->onDelete('cascade');
             $table->string('airline_name')->nullable()->comment("Airline Name");
             $table->integer('planes_number')->default(0)->comment("Number of Planes");
             $table->integer('flights_number')->default(0)->comment("Number of flights");

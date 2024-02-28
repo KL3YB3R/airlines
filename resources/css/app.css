@@ -1,3 +1,58 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* ! INPUTS VALIDATION */
+.is-invalid {
+    border-color: red;
+}
+
+.text-invalid {
+    color: red;
+}
+
+/* ! AIRLINE HOME */
+
+.image-plane-home {
+    position: absolute;
+    left: -10rem;
+    bottom: -6rem;
+    animation: moveDiagonal 3s forwards;
+}
+
+/* ! FORMS OPTIONS */
+.active {
+    background-color: #1e434c;
+    border: 1px solid #1e434c;
+    color: white;
+    border-top-right-radius: 300px;
+}
+
+.assign-active.active {
+    z-index: 20;
+}
+
+.assign-active {
+    z-index: 10;
+}
+
+/* ! ICONS */
+.icon-plane {
+    content: url("./../../public/assets/icons/avion-negro.png");
+    width: 35px;
+    margin-top: 0.1rem;
+}
+
+.icon-key {
+    content: url("./../../public/assets/icons/llave.png");
+    width: 18px;
+}
+
+/* ! KEYFRAMES */
+
+@keyframes moveDiagonal {
+    100% {
+        left: 0;
+        bottom: 0;
+    }
+}
