@@ -5,7 +5,5 @@
         <x-layouts.sidebar :options="$sidebarOptions" />
     </div>
 
-    <article class="flex-1 min-w-0 py-4">
-       Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti hic aliquam eveniet expedita blanditiis quo dolorem similique error id incidunt!
-    </article>
+    <livewire:shared.search-input wire:model="search" model="flights" class="flex-1" />
 </section>

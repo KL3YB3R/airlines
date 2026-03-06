@@ -22,10 +22,19 @@
     --color-zinc-800: #262626;
     --color-zinc-900: #171717;
     --color-zinc-950: #0a0a0a;
-
+    
     --color-accent: var(--color-neutral-800);
     --color-accent-content: var(--color-neutral-800);
     --color-accent-foreground: var(--color-white);
+
+    /* COLORES SISTEMA */
+    --color-main-color: #1E3A8A;
+    --color-second-color: #DBEAFE;
+    --color-third-color: #B45309;
+    --color-fourth-color: #F8FAFC;
+    --color-fifth-color: #334155;
+    --color-sixth-color: #10B981;
+    --color-seventh-color: #F97316
 }
 
 @layer theme {
@@ -45,6 +54,17 @@
     ::file-selector-button {
         border-color: var(--color-gray-200, currentColor);
     }
+}
+
+body{
+    background-color: #F8FAFC;
+    /* color: #1E3A8A;
+    color: #DBEAFE;
+    color: #B45309;
+    color: #F8FAFC;
+    color: #334155;
+    color: #10B981;
+    color: #F97316; */
 }
 
 [data-flux-field]:not(ui-radio, ui-checkbox) {
